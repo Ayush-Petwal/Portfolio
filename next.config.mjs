@@ -9,13 +9,10 @@ const nextConfig = {
   sentry: {
     ignoreErrors: true,
   },
-  webpack: (config, { isServer }) => {
-    if (isServer) {
-      console.log("Running on the server");
-    } else {
-      console.log("Running on the client");
+  experimental: {
+    outputFileTracingExcludes: {
+      '/page': ['/']
     }
-    return config;
   },
 };
 
