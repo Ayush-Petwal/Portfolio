@@ -56,21 +56,29 @@ const Hero = () => {
           />
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
             A{" "}
-            <a
-              className="text-purple"
-              href="https://github.com/Ayush-Petwal"
-              target="_blank"
+            <span
+              className="text-purple relative inline-block cursor-pointer group"
+              onMouseEnter={(e) => e.currentTarget.classList.add("hovered")}
+              onMouseLeave={(e) => e.currentTarget.classList.remove("hovered")}
+              onClick={() => window.open("https://github.com/Ayush-Petwal", "_blank")}
             >
-              FullStack Developer
-            </a>{" "}
+              <span className="block transition-opacity duration-300 group-hover:opacity-0">FullStack Developer</span>
+              <span className="absolute left-0 top-0 w-full opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                Github@Petwal
+              </span>
+            </span>{" "}
             &amp;{" "}
-            <a
-              className="text-purple"
-              href="https://leetcode.com/u/ashuraa_/"
-              target="_blank"
+            <span
+              className="text-purple relative inline-block cursor-pointer group"
+              onMouseEnter={(e) => e.currentTarget.classList.add("hovered")}
+              onMouseLeave={(e) => e.currentTarget.classList.remove("hovered")}
+              onClick={() => window.open("https://leetcode.com/u/ashuraa_/", "_blank")}
             >
-              Competitive Programmer.
-            </a>
+              <span className="block transition-opacity duration-300 group-hover:opacity-0">Competitive Programmer</span>
+              <span className="absolute left-0 top-0 w-full opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+                Leetcode@Petwal
+              </span>
+            </span>
           </p>
           <div className="flex justify-center space-x-4 mt-4">
             <a href="#projects">

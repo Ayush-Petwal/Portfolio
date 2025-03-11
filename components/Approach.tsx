@@ -15,9 +15,7 @@ const Approach = () => {
         <Card
           title="Planning & Strategy"
           icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          des="I start by analyzing project requirements and setting clear objectives. This phase involves conceptualizing the structure, defining functionality, and creating a roadmap for efficient development."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -26,11 +24,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Progress Update"
+          title="Development & Coding"
           icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          des="In this phase, I transform designs into functional code with precision and creativity. I fix errors methodically while listening to Eminem and ensure the website is responsive and optimized for performance."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -48,11 +44,11 @@ const Approach = () => {
           {/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
         </Card>
         <Card
-          title="Development & Launch"
+          title="Deployment & Launch"
           icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          des="This is where the magic happens! After thorough testing and quality assurance, 
+          I prepare your website for deployment with proper configurations and optimizations. 
+          Then it's time to launch your website to the world."
         >
           <CanvasRevealEffect
             animationSpeed={3}

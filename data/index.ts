@@ -8,7 +8,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "A final-year B.Tech student majoring in Computer Science & Engineering",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -115,116 +115,113 @@ export const projects = [
     ],
     link: "https://github.com/Ayush-Petwal/Glide",
   },
-];
-
-export const testimonials = [
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    id: 5,
+    title: "Sort-It",
+    des: "Created an interactive sorting algorithm visualizer that demonstrates how different sorting methods work in real-time. Users can adjust array size, speed, and compare efficiency between algorithms like Bubble, Quick, Merge etc.",
+    img: "/p5.png",
+    iconLists: ["/re.svg", "tail.svg"],
+    link: "https://github.com/Ayush-Petwal/SortIT",
   },
 ];
 
-export const companies = [
+export const skills = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    title: "DSA",
+    img: "/dsaLogo.png",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    title: "HTML",
+    img: "/html.svg",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    title: "CSS",
+    img: "/css.svg",
   },
   {
     id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    title: "Javascript",
+    img: "/js.svg",
   },
   {
     id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
-  },
-];
-
-export const workExperience = [
-  {
-    id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
-    className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    title: "Typescript",
+    img: "/ts.svg",
   },
   {
-    id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    id: 6,
+    title: "React",
+    img: "/re.svg",
   },
   {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    id: 7,
+    title: "Redux",
+    img: "/redux.svg",
   },
   {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    id: 8,
+    title: "Next.js",
+    img: "/next.svg",
+  },
+  {
+    id: 9,
+    title: "Tailwind CSS",
+    img: "/tail.svg",
+  },
+  {
+    id: 10,
+    title: "Node.js",
+    img: "/node.svg",
+  },
+  {
+    id: 11,
+    title: "Express",
+    img: "/express.svg",
+  },
+  {
+    id: 12,
+    title: "MongoDB",
+    img: "/mongodb.svg",
+  },
+  {
+    id: 13,
+    title: "SQL",
+    img: "/sql.svg",
+  },
+  {
+    id: 14,
+    title: "Python",
+    img: "/py.svg",
+  },
+  {
+    id: 15,
+    title: "C++",
+    img: "/cpp.svg",
+  },
+  {
+    id: 16,
+    title: "Postman",
+    img: "/postman.svg",
   },
 ];
 
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
+    img: "/ig.svg",
+    url: "https://www.instagram.com/ayush_petwal/",
   },
   {
     id: 2,
     img: "/twit.svg",
+    url: "https://x.com/AyushPetwal_",
   },
   {
     id: 3,
     img: "/link.svg",
+    url: "https://www.linkedin.com/in/ayush-petwal/",
   },
 ];
