@@ -1,18 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output : "export",
   typescript: {
     ignoreBuildErrors: true,
-  },
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
-  sentry: {
-    ignoreErrors: true,
-  },
-  experimental: {
-    outputFileTracingExcludes: {
-      '/page': ['/']
-    }
   },
 };
 
